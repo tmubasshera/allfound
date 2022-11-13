@@ -23,7 +23,7 @@ class _WaitingScreenFullState extends State<WaitingScreenFull> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Column(children: [Text('Hello')],),
+        body: Column(children: [Image.asset('images/App_Icon.png')],),
       ),
     );
   }
